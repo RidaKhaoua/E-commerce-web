@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- normalise -->
+    <link rel="stylesheet" href="./assets/css/normalise.css">
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+
+    <!-- style generale -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- style  -->
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <title>Shopping Cart | Login Page</title>
+</head>
+<body>
+    <div class="notification">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <div class="notification-message ">
+            username or password is incorrect
+        </div>
+    </div>
+    <section class="section-form">
+        <div class="form-content">
+            <div class="form-sign">
+                <h2 class="title">sign in</h2>
+                <div class="form">
+                    <form action="#">
+                        <div class="content-input user-name">
+                            <div class="input-and-icon">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" placeholder="Enter username..." id="username">
+                            </div>
+                            <small data-username class="error"></small>
+                        </div>
+                        <div class="content-input password">
+                            <div class="input-and-icon">
+                                <i class="fa-solid fa-lock"></i>
+                                <input type="password" placeholder="Enter password..." id="password">
+                            </div>
+                            <small data-password class="error"></small>
+                        </div>
+                        <div class="or">or</div>
+                        <div class="social-medial">
+                            <div class="facebook">
+                                <a href="#"><i class="icon fa-brands fa-facebook"></i></a>
+                            </div>
+                            <div class="google">
+                                <a href="#"><i class="icon fa-brands fa-google"></i></a>
+                            </div>
+                            <div class="tiwtter">
+                                <a href="#"><i class="icon fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                        <div class="register">
+                            <a href="register.html">register now</a>
+                        </div>
+                        <input type="submit" value="sing in" id="login">
+                    </form>
+                </div>
+            </div>
+            <div class="image">
+                <div class="body-content">
+                    <h2 class="title">shopin caret</h2>
+                    <p class="desc">
+                        you can by anything with shoping caret 
+                    </p>
+                </div>
+                <img src="assets/images/login/img1.jpg" alt="image for shopping">
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/all.min.js"></script>
+    <script type="module" src="./assets/js/script.js"></script>
+    <script  type="module" src="./assets/js/login.js"></script>
+</body>
+</html>
